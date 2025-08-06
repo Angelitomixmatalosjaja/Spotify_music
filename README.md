@@ -30,3 +30,8 @@ Este proyecto realiza un análisis exploratorio y predictivo basado en el histor
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/Angelitomixmatalosjaja/Spotify_music.git
+
+## 📊 Resultados esperados
+- Visualizaciones del historial de reproducción.
+- Insights sobre artistas y canciones más reproducidas.
+- Clasificación de patrones de comportamiento en base a los datos.
