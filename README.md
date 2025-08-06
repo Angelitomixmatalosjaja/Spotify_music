@@ -1,37 +1,52 @@
 # Spotify_music
 # 🎧 Análisis de Historial de Spotify
 
-Este proyecto realiza un análisis exploratorio y predictivo basado en el historial de reproducciones de Spotify. Se utilizan herramientas de ciencia de datos y machine learning para entender el comportamiento del usuario y construir posibles modelos de clasificación.
+Este proyecto analiza el historial de reproducciones de un usuario de Spotify con el objetivo de identificar patrones de escucha, detectar los artistas y canciones más reproducidas, y predecir cuándo una canción será saltada utilizando machine learning.
 
-## 📁 Archivos
+## 📁 Archivos del Proyecto
 
-- `spotify_history.csv`: Historial de canciones reproducidas.
-- `spotify_data_dictionary Description.csv`: Diccionario de datos con descripciones de columnas.
-- `spotify.ipynb`: Notebook principal donde se realiza el análisis y modelado.
+- `spotify.ipynb`: Notebook con todo el análisis exploratorio, procesamiento, visualizaciones y modelo predictivo.
+- `spotify_history.csv`: Dataset principal con el historial de reproducción.
+- `spotify_data_dictionary Description.csv`: Diccionario de datos con descripciones de las columnas.
 
-## 🛠 Tecnologías y librerías utilizadas
+## 🧠 Herramientas y Librerías
 
-- Python
-- pandas
-- numpy
-- matplotlib
-- scikit-learn
-- imbalanced-learn (`imblearn`)
+- `Python`
+- `pandas`, `numpy`
+- `matplotlib`
+- `scikit-learn`
+- `imbalanced-learn`
+- `Jupyter Notebook`
 
-## 🚀 Objetivos del proyecto
+## 🧪 Qué se hizo
 
-- Limpieza y análisis exploratorio de datos (EDA).
-- Preparación de datos con codificación de variables.
-- Entrenamiento de modelos de clasificación con `RandomForestClassifier`.
-- Evaluación del modelo usando métricas como `classification_report`.
+- Limpieza y preparación del dataset.
+- Análisis exploratorio de datos (EDA).
+- Visualización de canciones, artistas, plataformas y comportamiento de skip.
+- Clasificación con `RandomForestClassifier` para predecir skips.
+- Análisis de razones por las que se empieza o se termina una canción.
 
-## 🧪 Cómo ejecutar
+## 📊 Hallazgos Clave
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/Angelitomixmatalosjaja/Spotify_music.git
+- **Canción más escuchada:** *Ode To The Mets*  
+- **Artista más escuchado:** *The Beatles* (13,621 reproducciones)
+- **Plataforma más usada:** Android  
+- **Años con más actividad:** 2016 en adelante, con un pico durante la pandemia (2020)
 
-## 📊 Resultados esperados
-- Visualizaciones del historial de reproducción.
-- Insights sobre artistas y canciones más reproducidas.
-- Clasificación de patrones de comportamiento en base a los datos.
+## 🤖 Modelo Predictivo
+
+Se desarrolló un modelo para predecir si una canción será saltada.  
+Resultados del modelo (Random Forest):
+- **Accuracy general:** 61%
+- **Recall para skips:** 99%
+- **Precisión para no skips:** 100%
+
+El modelo detecta eficazmente cuándo una canción será saltada, aunque es menos preciso en predecir las que se escuchan completas.
+
+## 🧩 Reflexión Final
+
+Este proyecto combina análisis real con datos personales, ofreciendo insights valiosos mientras se practican habilidades clave de ciencia de datos. Representa un avance sólido en el camino profesional hacia el análisis de datos.
+
+---
+
+📌 *Creado por [@Angelitomixmatalosjaja](https://github.com/Angelitomixmatalosjaja)*
